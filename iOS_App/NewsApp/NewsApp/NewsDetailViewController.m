@@ -57,6 +57,7 @@
         button.layer.cornerRadius = button.frame.size.height/2;
         button.layer.borderWidth = 1.0;
         button.layer.borderColor = STORY_LINKS.CGColor;
+        button.showsTouchWhenHighlighted = YES;
         
         [button addTarget:self action:@selector(handleButton:) forControlEvents:UIControlEventTouchUpInside];
         
