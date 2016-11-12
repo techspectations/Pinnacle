@@ -33,4 +33,12 @@
     return cell;
 }
 
+#pragma mark UITableView Delegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == 1) {
+        [self presentViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"newsDetail"]  animated:YES completion:nil];
+    }
+}
+
 @end

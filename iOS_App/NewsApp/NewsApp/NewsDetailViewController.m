@@ -8,7 +8,9 @@
 
 #import "NewsDetailViewController.h"
 
-@interface NewsDetailViewController ()
+@interface NewsDetailViewController () {
+    __weak IBOutlet UIScrollView *scrollView;
+}
 
 @end
 
@@ -16,7 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    scrollView.contentSize = CGSizeMake(320, 1500);
 }
 
 - (IBAction)close:(id)sender {
