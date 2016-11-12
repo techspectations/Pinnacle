@@ -8,4 +8,4 @@ A platform that addresses this problem by delivering content based links to arti
 
 Storylinks platform include an admin web portal, a web SDK and a mobile SDK.
 
-![alt tag](https://github.com/techspectations/Pinnacle/raw/master/Design/splash.jpg)
+![alt tag](https://github.com/techspectations/Pinnacle/raw/master/Design/the_story_links.png)
